@@ -1,0 +1,65 @@
+{
+    "manifestVersion": 1,
+    "id": "the-apps-pajamas-azure-tasks",
+    "name": "The Apps Pajamas Azure Tasks",
+    "version": "0.1.5",
+    "publisher": "TheAppsPajamas",
+    "public" : true,
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],    
+    "description": "Tools for building with The Apps Pajamas",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "icons": {
+        "default": "images/catbot-icon.png"        
+    },
+    "tags": [
+        "version", 
+        "versioning",
+        "build",
+        "replacement",
+        "android", "ios",
+        "xamarin", "xamarin.forms",
+        "package", "manifest", "info.plist", "entitlements.plist"
+    ],    
+    "content": {
+        "details": {
+            "path": "README.md"
+        },
+        "license": {
+            "path": "LICENSE"
+        }
+    },
+    "links": {
+        "home": {
+            "uri": "https://www.theappspajamas.com"
+        },
+        "repository": {
+            "uri": "https://github.com/TheAppsPajamas/TheAppsPajamas.AzureTasks"
+        },
+        "issues": {
+            "uri": "https://www.theappspajamas.com/support"
+        }
+    },        
+    "files": [
+        {
+            "path": "src"
+        }
+    ],
+    "contributions": [
+        {
+            "id": "the-apps-pajamas-azure-service-account-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "src"
+            }
+        }
+    ]
+}
