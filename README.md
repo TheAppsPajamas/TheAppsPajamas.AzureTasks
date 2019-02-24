@@ -1,10 +1,10 @@
 # TheAppsPajamas.AzureTasks
 
-Azure pipeline tasks for [The Apps Pajamas Continuous Delivery](https://www.theappspajamas.com) Asset Pipeline Service
+Azure pipeline tasks for [TheAppsPajamas Continuous Delivery](https://www.theappspajamas.com) Asset Pipeline Service
 
 ## Includes
 
-The Apps Pajamas Service Account Key Installer
+TheAppsPajamas Service Account Key Installer
 
 Installs a service account key to your pipeline before build time. Can be linked to Azure key vault to secure service account keys
 
@@ -16,8 +16,8 @@ Installs a service account key to your pipeline before build time. Can be linked
 
 ## Documentation
 
-See [The Apps Pajamas Docs](https://www.theappspajamas.com/docs)
+See [TheAppsPajamas Docs](https://www.theappspajamas.com/docs)
 
 ## Support
 
-See [The Apps Pajamas Support](https://www.theappspajamas.com/support)
+See [TheAppsPajamas Support](https://www.theappspajamas.com/support)
