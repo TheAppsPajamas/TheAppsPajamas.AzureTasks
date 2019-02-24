@@ -1,11 +1,11 @@
 {
     "id": "fa2fd850-7266-4994-b45a-f221e0b255b2",
     "name": "the-apps-pajamas-azure-service-account-task",
-    "friendlyName": "The Apps Pajamas Service Account Key Installer",
-    "description": "Install an Apps Pajamas Service Account Key before building",
+    "friendlyName": "TheAppsPajamas Service Account Key Installer",
+    "description": "Install TheAppsPajamas Service Account Key before building",
     "helpMarkDown": "",
     "category": "Utility",
-    "author": "The Apps Pajamas",   
+    "author": "TheAppsPajamas",   
     "visibility": [
         "Build"
       ],
@@ -38,7 +38,7 @@
             "label": "Service user access key",
             "defaultValue": "",
             "required": true,
-            "helpMarkDown": "Your service user access key available from The Apps Pajamas dashboard"
+            "helpMarkDown": "Your service user access key available from TheAppsPajamas dashboard"
         }
     ],
     "execution": {

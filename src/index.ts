@@ -20,7 +20,7 @@ async function run() {
 
         let outFile = path.normalize(`${inputSourcesDirectory}/tapsecurity.json`);
 
-        console.log(`Installing The Apps Pajamas Service User Access Key to ${outFile}`);
+        console.log(`Installing TheAppsPajamas Service User Access Key to ${outFile}`);
 
         let securitySettings = {
             ServiceUserAccessKey: inputServiceUserAccessKey

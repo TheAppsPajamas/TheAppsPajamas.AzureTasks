@@ -1,8 +1,8 @@
 {
     "manifestVersion": 1,
     "id": "the-apps-pajamas-azure-tasks",
-    "name": "The Apps Pajamas Azure Tasks",
-    "version": "0.1.5",
+    "name": "TheAppsPajamas Azure Tasks",
+    "version": "0.1.6",
     "publisher": "TheAppsPajamas",
     "public" : true,
     "targets": [
@@ -10,7 +10,7 @@
             "id": "Microsoft.VisualStudio.Services"
         }
     ],    
-    "description": "Tools for building with The Apps Pajamas",
+    "description": "Tools for building with TheAppsPajamas",
     "categories": [
         "Azure Pipelines"
     ],
